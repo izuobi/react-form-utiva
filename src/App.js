@@ -22,6 +22,7 @@ function App() {
   }
 
   const subMit = (e) => {
+    //prevent the page from reloading
     e.preventDefault();
 
     console.log("form:", form)
